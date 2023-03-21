@@ -1,0 +1,26 @@
+{
+  "name": "web-component-microfrontend",
+  "version": "1.0.0",
+  "description": "Micro-frontend with Web Components",
+  "main": "index.htm",
+  "scripts": {
+    "build-apps": "cd body && npm run build & cd header && npm run build & cd footer && npm run build ",
+    "package-apps": "cd body && npm run package & cd header && npm run package & cd footer && npm run package",
+    "serve": "npx -p http-server http-server ./app-shell/ --cors --port 8080 -P http://localhost:8080?",
+    "run-mfe": "npm run build-apps && npm run package-apps && npm run serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alessandroinfo/web-component-microfrontend.git"
+  },
+  "keywords": [
+    "micro-frontend",
+    "web-components"
+  ],
+  "author": "Alessandro Russo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Alessandroinfo/web-component-microfrontend/issues"
+  },
+  "homepage": "https://github.com/Alessandroinfo/web-component-microfrontend#readme"
+}
