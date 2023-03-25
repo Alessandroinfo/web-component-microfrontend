@@ -19,9 +19,10 @@ After cloned the repo
 1. Run `npm run run-mfe`
 2. Go to `http://localhost:8080`
 
-
-  
-🎉 By using Web Components we can create scalable and flexible solutions for building complex web apps! 🚀
-
 ## Final Result
 ![docs/img.png](docs/result.png)
+
+🎉 By using Web Components we can divideour applications in domains (using DDD) and let the teams work vertically for a specific module / domain!
+
+🚀 Also we can implement Self-Contained System so we can have isolated module that don't interfere in any way with others module, for bugs too.
+
