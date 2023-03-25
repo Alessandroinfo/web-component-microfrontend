@@ -4,6 +4,15 @@ Web Components are custom, reusable HTML tags that allow us to create independen
 
 To containerize the micro-frontends, we create an app-shell which serves as a common interface for communication and navigation between the micro-frontends.
 
+### Composition 
+- **app-shell**
+  - **body**
+  - **header**
+  - **body**
+  - **footer**
+  
+The web-components body, header and footer are Angular applications wrapped into a web-component.
+  
 🎉 By using Web Components and an app-shell, we can create scalable and flexible solutions for building complex web apps! 🚀
 ## Final Result
 ![docs/img.png](docs/result.png)
