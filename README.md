@@ -1,8 +1,8 @@
-## 👋 Implementing micro-frontends using web components and Angular!
+## 👋 Implementing micro-frontends using web components!
 
 Here's a brief overview of how it works and the theory behind it:
 
-Web Components are custom, reusable HTML tags that allow us to create independent components across different frameworks and platforms. By creating Web Components from Angular applications, we can use them as micro-frontends.
+Web Components are custom, reusable HTML tags that allow us to create independent components across different frameworks and platforms. By wrapping Angular applications  into Web Components, we can use them as micro-frontends.
 
 To containerize the micro-frontends, we create an app-shell which serves as a common interface for communication and navigation between the micro-frontends.
 
