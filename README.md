@@ -8,7 +8,6 @@ To containerize the micro-frontends, we create an app-shell which serves as a co
 - **app-shell**
   - **body**
   - **header**
-  - **body**
   - **footer**
   
 The web-components body, header and footer are Angular applications wrapped into a web-component.
