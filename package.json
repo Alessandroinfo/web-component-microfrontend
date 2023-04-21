@@ -4,6 +4,7 @@
   "description": "Micro-frontend with Web Components",
   "main": "index.htm",
   "scripts": {
+    "install-apps": "cd body && npm i & cd header && npm i & cd footer && npm i ",
     "build-apps": "cd body && npm run build & cd header && npm run build & cd footer && npm run build ",
     "package-apps": "cd body && npm run package & cd header && npm run package & cd footer && npm run package",
     "serve": "npx -p http-server http-server ./app-shell/ --cors --port 8080 -P http://localhost:8080?",
